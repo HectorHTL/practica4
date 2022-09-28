@@ -3,14 +3,14 @@ self.addEventListener('install', (event)=>{
     const promiseCache = caches.open('Cache-v1').then((cache)=>{
          return cache.addAll(
              [
-                 '/',
-                 '/index.html',
-                 '/css/style.css',
-                 '/js/app.js',
-                 '/pages/suma.html',
-                 '/pages/division.html',
-                 '/pages/multiplicacion.html',
-                 '/pages/resta.html',
+                 '/practica4/',
+                 '/practica4/index.html',
+                 '/practica4/css/style.css',
+                 '/practica4/js/app.js',
+                 '/practica4/pages/suma.html',
+                 '/practica4/pages/division.html',
+                 '/practica4/pages/multiplicacion.html',
+                 '/practica4/pages/resta.html',
                  'https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js',
                  'https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css',
              ]
